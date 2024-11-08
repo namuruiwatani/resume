@@ -6,6 +6,7 @@ RESET='\033[0m'
 YELLOW='\033[1;33m'
 CYAN='\033[1;36m'
 
+# Резюме на русском
 function resume_ru {
   echo
   echo -e "     -##*:                      :*#*-               Резюме${RESET}"
@@ -35,6 +36,7 @@ function resume_ru {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
+# Резюме на английском
 function resume_en {
   echo
   echo -e "     -##*:                      :*#*-               Resume${RESET}"
@@ -64,6 +66,7 @@ function resume_en {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
+# Резюме на китайском
 function resume_cn {
   echo
   echo -e "     -##*:                      :*#*-               简历${RESET}"
@@ -86,21 +89,21 @@ function resume_cn {
   echo
   echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}让我们联系起来!${RESET} ${BLUE}---------------------${RESET}"
   echo
-  echo -e "                             ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
+  echo -e "           ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
   echo
   echo -e "                        ${BLOOD_RED}       ╔═══════════════════════════════════╗${RESET}"
-  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！         ║${RESET}"
+  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！          ║${RESET}"
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
+# Проверяем аргумент
+if [ -z "$1" ]; then
+  echo "Необходимо указать язык: 1 для Русского, 2 для English, 3 для 中文."
+  exit 1
+fi
 
-echo "Выберите язык / Choose language / 选择语言:"
-echo "1) Русский"
-echo "2) English"
-echo "3) 中文"
-read -p "Введите номер / Enter number / 输入号码: " lang_choice
-
-case $lang_choice in
+# Определяем язык на основе переданного параметра
+case $1 in
 1)
   resume_ru
   ;;
@@ -111,6 +114,7 @@ case $lang_choice in
   resume_cn
   ;;
 *)
-  echo "Неверный выбор / Invalid choice / 错误的选择"
+  echo "Неверный выбор языка!"
+  exit 1
   ;;
 esac
