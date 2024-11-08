@@ -31,7 +31,6 @@ You can choose one of the following languages to display the resume:
     curl -s https://raw.githubusercontent.com/namuruiwatani/resume/main/resume.sh | bash -s 3
     ```
 
-Each language has its own unique presentation, so feel free to choose the one you prefer.
 
 ### 📌 Note
 If the output in your terminal looks misaligned or uneven, try running the command again. This can help fix formatting issues and make the resume appear more symmetrical.
