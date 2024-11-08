@@ -1,34 +1,48 @@
-# ru-resume
+# resume
 
-## 🌟 Описание
+## 🌟 Description
 
-🎭 Добро пожаловать в моё театральное резюме! Я — программист, который вносит креативность в каждую строчку кода.
+🎭 Welcome to my theatrical resume! I am a software engineer who adds creativity to every line of code.
 
-## 🎭 Персонаж
+## 🎭 Character
 
-- **Имя:** Namuru Iwatani  
-- **Роль:** Software Engineer  
-- **Хобби:** Обучаюсь игре на фортепиано, исследую мир музыки и кода.  
+- **Name:** Namuru Iwatani  
+- **Role:** Software Engineer  
+- **Hobbies:** Learning to play the piano, exploring the world of music and code.  
 
-## 🎬 Как использовать
+## 🎬 How to Use
 
-Чтобы запустить мой резюме-скрипт и увидеть мою историю, выполните следующую команду в вашем терминале:
+This resume is designed to be interactive and fun! You can use the terminal to display my resume in different languages.
 
-```bash
-curl -s https://raw.githubusercontent.com/namuruiwatani/ru-resume/main/resume.sh | bash
-```
+### 📌 Language Options
 
-### 📌 Примечание
-Если вывод в терминале выглядит неровно, попробуйте запустить команду ещё раз. Это поможет исправить форматирование и сделать резюме более симметричным.
+You can choose one of the following languages to display the resume:
 
-### 🎭 Требования
+1. **Chinese** (default): Use the command
+    ```bash
+    curl -s https://raw.githubusercontent.com/namuruiwatani/resume/main/resume.sh | bash -s 1
+    ```
+2. **English**: Use the command
+    ```bash
+    curl -s https://raw.githubusercontent.com/namuruiwatani/resume/main/resume.sh | bash -s 2
+    ```
+3. **Russian**: Use the command
+    ```bash
+    curl -s https://raw.githubusercontent.com/namuruiwatani/resume/main/resume.sh | bash -s 3
+    ```
 
-- Установленный терминал с поддержкой Bash (например, WSL, Git Bash или любой Unix-подобный терминал).
-- `curl` должен быть установлен на вашей машине.
+Each language has its own unique presentation, so feel free to choose the one you prefer.
 
-## 💌 Связаться со мной
+### 📌 Note
+If the output in your terminal looks misaligned or uneven, try running the command again. This can help fix formatting issues and make the resume appear more symmetrical.
 
-Если вас впечатлило моё резюме, не стесняйтесь написать мне! Я открытый к новым возможностям и сотрудничеству.
+### 🎭 Requirements
+
+- A terminal with Bash support (such as WSL, Git Bash, or any Unix-like terminal).
+- `curl` should be installed on your machine.
+
+## 💌 Get in Touch
+
+If my resume impressed you, don’t hesitate to reach out! I am open to new opportunities and collaborations.
 
 📧 [dev.namuru@gmail.com](mailto:dev.namuru@gmail.com)
-
