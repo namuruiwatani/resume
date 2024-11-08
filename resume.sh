@@ -89,10 +89,10 @@ function resume_cn {
   echo
   echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}让我们联系起来!${RESET} ${BLUE}---------------------${RESET}"
   echo
-  echo -e "                            ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
+  echo -e "                              ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
   echo
   echo -e "                        ${BLOOD_RED}       ╔═══════════════════════════════════╗${RESET}"
-  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！         ║${RESET}"
+  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！        ║${RESET}"
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
