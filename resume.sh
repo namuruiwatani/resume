@@ -94,7 +94,6 @@ function resume_cn {
 }
 
 if [ -z "$1" ]; then
-  echo "Необходимо указать язык: 1 для Русского, 2 для English, 3 для 中文."
   exit 1
 fi
 
@@ -109,7 +108,6 @@ case $1 in
   resume_ru
   ;;
 *)
-  echo "Неверный выбор языка!"
   exit 1
   ;;
 esac
