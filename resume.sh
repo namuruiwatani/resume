@@ -6,7 +6,6 @@ RESET='\033[0m'
 YELLOW='\033[1;33m'
 CYAN='\033[1;36m'
 
-# Резюме на русском
 function resume_ru {
   echo
   echo -e "     -##*:                      :*#*-               Резюме${RESET}"
@@ -36,7 +35,6 @@ function resume_ru {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
-# Резюме на английском
 function resume_en {
   echo
   echo -e "     -##*:                      :*#*-               Resume${RESET}"
@@ -66,7 +64,6 @@ function resume_en {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
-# Резюме на китайском
 function resume_cn {
   echo
   echo -e "     -##*:                      :*#*-               简历${RESET}"
@@ -96,13 +93,11 @@ function resume_cn {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
-# Проверяем аргумент
 if [ -z "$1" ]; then
   echo "Необходимо указать язык: 1 для Русского, 2 для English, 3 для 中文."
   exit 1
 fi
 
-# Определяем язык на основе переданного параметра
 case $1 in
 1)
   resume_ru
