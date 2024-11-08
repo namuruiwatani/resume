@@ -100,13 +100,13 @@ fi
 
 case $1 in
 1)
-  resume_ru
+  resume_cn
   ;;
 2)
   resume_en
   ;;
 3)
-  resume_cn
+  resume_ru
   ;;
 *)
   echo "Неверный выбор языка!"
