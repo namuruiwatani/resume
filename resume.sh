@@ -6,16 +6,16 @@ RESET='\033[0m'
 YELLOW='\033[1;33m'
 CYAN='\033[1;36m'
 
-function resume_ru {
+function resume_cn {
   echo
-  echo -e "     -##*:                      :*#*-               Резюме${RESET}"
+  echo -e "     -##*:                      :*#*-               简历${RESET}"
   echo -e "  :#*==-=+#+.                .**+====**.            ====================${RESET}"
-  echo -e " .:        .:               .:.   :.   :.           ФИ: ${RESET}${YELLOW}Namuru Iwatani${RESET}"
-  echo -e "                                 ${BLOOD_RED}:*:${RESET}                Навыки: ${RESET}${CYAN}JavaScript, React, PHP, Astro, NodeJS, TypeScript${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Кто я?: ${RESET}${CYAN}Инженер-программист${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Хобби: ${RESET}${CYAN}Обучаюсь игре на фортепиано${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Контакты: ${RESET}${CYAN}dev.namuru@gmail.com${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Портфолио: ${RESET}${CYAN}в разработке${RESET}"
+  echo -e " .:        .:               .:.   :.   :.           姓名: ${RESET}${YELLOW}Namuru Iwatani${RESET}"
+  echo -e "                                 ${BLOOD_RED}:*:${RESET}                技能: ${RESET}${CYAN}JavaScript, React, PHP, Astro, NodeJS, TypeScript${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                我是谁: ${RESET}${CYAN}软件工程师${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                爱好: ${RESET}${CYAN}学习弹钢琴${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                联系方式: ${RESET}${CYAN}dev.namuru@gmail.com${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                作品集: ${RESET}${CYAN}开发中${RESET}"
   echo -e "                                  ${BLOOD_RED}.${RESET}"
   echo
   echo -e "         .:                        :."
@@ -26,12 +26,12 @@ function resume_ru {
   echo -e "                   .=@@@@*.          "
   echo -e "                       .             "
   echo
-  echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}Давайте свяжемся!${RESET} ${BLUE}---------------------${RESET}"
+  echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}让我们联系起来!${RESET} ${BLUE}---------------------${RESET}"
   echo
-  echo -e "           ${CYAN}\"Словно театральная пьеса, код требует страсти, исполнения и немного безумия.\"${RESET}"
+  echo -e "           ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
   echo
   echo -e "                        ${BLOOD_RED}       ╔═══════════════════════════════════╗${RESET}"
-  echo -e "                        ${BLOOD_RED}       ║        Спасибо за просмотр!       ║${RESET}"
+  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！          ║${RESET}"
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
@@ -64,16 +64,16 @@ function resume_en {
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
-function resume_cn {
+function resume_ru {
   echo
-  echo -e "     -##*:                      :*#*-               简历${RESET}"
+  echo -e "     -##*:                      :*#*-               Резюме${RESET}"
   echo -e "  :#*==-=+#+.                .**+====**.            ====================${RESET}"
-  echo -e " .:        .:               .:.   :.   :.           姓名: ${RESET}${YELLOW}Namuru Iwatani${RESET}"
-  echo -e "                                 ${BLOOD_RED}:*:${RESET}                技能: ${RESET}${CYAN}JavaScript, React, PHP, Astro, NodeJS, TypeScript${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                我是谁: ${RESET}${CYAN}软件工程师${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                爱好: ${RESET}${CYAN}学习弹钢琴${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                联系方式: ${RESET}${CYAN}dev.namuru@gmail.com${RESET}"
-  echo -e "                                 ${BLOOD_RED}-%-${RESET}                作品集: ${RESET}${CYAN}开发中${RESET}"
+  echo -e " .:        .:               .:.   :.   :.           ФИ: ${RESET}${YELLOW}Namuru Iwatani${RESET}"
+  echo -e "                                 ${BLOOD_RED}:*:${RESET}                Навыки: ${RESET}${CYAN}JavaScript, React, PHP, Astro, NodeJS, TypeScript${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Кто я?: ${RESET}${CYAN}Инженер-программист${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Хобби: ${RESET}${CYAN}Обучаюсь игре на фортепиано${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Контакты: ${RESET}${CYAN}dev.namuru@gmail.com${RESET}"
+  echo -e "                                 ${BLOOD_RED}-%-${RESET}                Портфолио: ${RESET}${CYAN}в разработке${RESET}"
   echo -e "                                  ${BLOOD_RED}.${RESET}"
   echo
   echo -e "         .:                        :."
@@ -84,16 +84,20 @@ function resume_cn {
   echo -e "                   .=@@@@*.          "
   echo -e "                       .             "
   echo
-  echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}让我们联系起来!${RESET} ${BLUE}---------------------${RESET}"
+  echo -e "                     ${BLUE}---------------------${RESET} ${BLOOD_RED}Давайте свяжемся!${RESET} ${BLUE}---------------------${RESET}"
   echo
-  echo -e "           ${CYAN}\"就像戏剧一样，代码需要激情、执行力和一点疯狂\"${RESET}"
+  echo -e "           ${CYAN}\"Словно театральная пьеса, код требует страсти, исполнения и немного безумия.\"${RESET}"
   echo
   echo -e "                        ${BLOOD_RED}       ╔═══════════════════════════════════╗${RESET}"
-  echo -e "                        ${BLOOD_RED}       ║            感谢您的观看！          ║${RESET}"
+  echo -e "                        ${BLOOD_RED}       ║        Спасибо за просмотр!       ║${RESET}"
   echo -e "                        ${BLOOD_RED}       ╚═══════════════════════════════════╝${RESET}"
 }
 
 if [ -z "$1" ]; then
+  echo "Выберите язык / Choose language / 选择语言:"
+  echo "1) 中文"
+  echo "2) English"
+  echo "3) Русский"
   exit 1
 fi
 
@@ -108,6 +112,7 @@ case $1 in
   resume_ru
   ;;
 *)
+  echo "Неверный выбор."
   exit 1
   ;;
 esac
